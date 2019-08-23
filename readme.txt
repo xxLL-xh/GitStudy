@@ -1,7 +1,7 @@
 git init 初始化git仓库
 
 add 添加
-commit 提交
+commit 提交       提交时要写一段描述！！！！
 git status命令可以让我们时刻掌握仓库当前的状态
 git diff顾名思义就是查看difference
 
