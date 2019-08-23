@@ -24,3 +24,7 @@ git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令
 
 git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区
 git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
+
+git rm并commit 可以从版本库删除
+若版本库没被删时，工作区文件被误删，可用git checkout恢复
+git checkout--file其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
