@@ -1,0 +1,6 @@
+git分为工作区和暂存区。
+通过add吧工作区内容提到暂存区，再由commit提交至master分支上，head指针指向maste分支。
+
+git跟踪管理文件而不是修改
+
+git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别：
